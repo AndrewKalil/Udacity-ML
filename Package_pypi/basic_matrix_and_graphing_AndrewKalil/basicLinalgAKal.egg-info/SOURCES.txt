@@ -1,0 +1,11 @@
+README.md
+setup.py
+basicLinalgAKal.egg-info/PKG-INFO
+basicLinalgAKal.egg-info/SOURCES.txt
+basicLinalgAKal.egg-info/dependency_links.txt
+basicLinalgAKal.egg-info/not-zip-safe
+basicLinalgAKal.egg-info/top_level.txt
+src/Basic_Operations.py
+src/Matrix_Manipulation.py
+src/__init__.py
+src/test.py
