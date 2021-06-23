@@ -8,10 +8,15 @@ from sklearn.externals import joblib
 
 ## TODO: Import any additional libraries you need to define a model
 # from sklearn.svm import LinearSVC
-
-import hdbscan
-
-
+def install_and_import(package):
+    import importlib
+    try:
+        importlib.import_module(package)
+    except ImportError:
+        import pip
+        pip.main(['install', package])
+    finally:
+        globals()[package] = importlib.import_module(package)
 
 # Provided model load function
 def model_fn(model_dir):
@@ -54,7 +59,10 @@ if __name__ == '__main__':
     ## --- Your code here --- ##
 
     ## TODO: Define a model
+    install_and_import('hdbscan')
+    import hdbscan
     model = hdbscan.HDBSCAN(min_cluster_size=60, min_samples=10)
+    
     ## TODO: Train the model
     model.fit(pca_dataset)
 
