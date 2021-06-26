@@ -120,6 +120,9 @@ _Starbucks ML2.ipynb_
 * Contains the code for HDBSCAN clustering algorithm
 * Contains the final data with clustering labesl and graphical analysis
 
+## Link to report
+[Blog post](https://1541-87490.medium.com/customer-segmentation-with-starbucks-dataset-65505310bcc1)
+
 ## References
 1) [Otar, C., 2018. What Percentage Of Small Businesses Fail - And How Can You Avoid Being One Of Them?](https://www.forbes.com/sites/forbesfinancecouncil/2018/10/25/what-percentage-of-smallbusinesses-fail-and-how-can-you-avoid-being-one-of-them/?sh=585248c43f04)
 2) [High Quality, High Performance Clustering with HDBSCAN | SciPy 2016 | Leland McInnes](https://www.youtube.com/watch?v=AgPQ76RIi6A&t=1087s)
